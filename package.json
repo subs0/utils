@@ -2,7 +2,7 @@
     "name": "@-0/utils",
     "author": "Logan Powell",
     "license": "MIT",
-    "version": "0.2.113",
+    "version": "0.3.0",
     "description": "utilities for the `-0` org/framework built on @thi.ng/umbrella ecosystem",
     "main": "./lib/index.js",
     "type": "module",
@@ -19,7 +19,13 @@
         "ncu": "ncu -u && npm i && npm audit fix",
         "git": "git add . && git commit -m"
     },
-    "keywords": [ "thi.ng", "-0", "FRP", "keys", "constants" ],
+    "keywords": [
+        "thi.ng",
+        "-0",
+        "FRP",
+        "keys",
+        "constants"
+    ],
     "dependencies": {
         "querystring": "^0.2.1"
     },
